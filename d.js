@@ -1,9 +1,6 @@
-console.log("good evening");
+var a=20;
+//function declaration
 function fun1(){
-    console.log("hello everyone");
+    console.log();
 }
-fun1();
-function fun2(){
-    console.log("hello from function2");
-}
-fun2();
+//function calling
