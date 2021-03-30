@@ -1,4 +1,6 @@
-console.log("good morning");
-var a=10;
-var b=23;
-console.log(a+b);
+//function decleration
+function fun1(){
+    console.log("hello world");
+}
+//function calling
+fun1();
