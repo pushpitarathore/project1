@@ -1,12 +1,13 @@
-console.log("my name is pushpita rathore");
-var a=8;
-let b=7;
-console.log(a+b);
-//function definition
-function fun1(){
-    console.log("good evening");
+//function declaration
+function hello(fname , lname){
+    console.log("hello " + fname + lname);
 }
 //function calling
-fun1();
-fun1();
-fun1();
+hello("pushpita ", "rathore" );
+
+//function decleration
+function fun2(x,y=10){
+    console.log(x+y);
+}
+//function calling
+fun2(34, );
