@@ -1,7 +1,7 @@
-function fun2(){      //function declaration
-    var a=10;       //a is local variable
-    let b=10;        //b is local variable
-    console.log("addition is:-" + (a+b));
+var x= "pushpita";
+//funcnction decleration
+function fun1(y){         //y is formal argument
+    console.log("hello "+ y);
 }
 //function calling
-fun2();
+fun1(x);    //actual argument
