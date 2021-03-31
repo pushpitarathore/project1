@@ -1,20 +1,20 @@
-//class declaration
-class MyClass{
+//class definition
+class MyFirstClass{
     //properties
+
 
     //constructer
 
     //method
-    myFunction1(n){
-        console.log(`hello ${n} from myFunction1`);
-        this.myFunction2();
+    myFun(n){
+        console.log(`have a ${n} day`);
     }
-    myFunction2(){
-        console.log("hello from myFunction2");
+    myFun2(m){
+        console.log("pushpita" + m);
     }
-
-}  //class definition end
-//let objectname = new classname()
-let y = new MyClass();
+} //class definition end
+//let objectname = new classname();
+let a = new MyFirstClass();
 //object.member
-y.myFunction1("pushpita"); 
+a.myFun("nice");
+a.myFun2("rathore");

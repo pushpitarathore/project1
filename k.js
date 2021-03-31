@@ -1,8 +1,21 @@
-var a=65;
-let b=89;
-const c=78;
-function fun1(){
-    console.log(a*b+c);
+//class definition
+class Pushpita {
+    //properties
+
+    //constructer
+
+    //method
+    hello(fname, lname) {
+        console.log("hello " + fname + lname);
+    }
+    hello("pushpita ", "rathore");
+
+     fun2(x, y = 10) {
+    console.log(x + y);
 }
-fun1();
-console.log(a+b+c);
+fun2(34,);
+} //class decleration end
+//let objectname = new classname
+let a = new Pushpita();
+//object.member
+a.hello();
