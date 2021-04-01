@@ -3,7 +3,7 @@ class A {
     //property
 
     //constructer
-    constructer() {
+    constructor() {
 
     }
 
@@ -20,9 +20,9 @@ class B extends A{
     //property
 
     //constructer
-    constructer(){
+    constructor(){
         super();
-
+        this.myFun2();
     }
 
 
@@ -34,4 +34,3 @@ class B extends A{
 //let object = new classname();
 let obj = new B();
 obj.myfun1();
-obj.myfun2();

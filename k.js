@@ -1,13 +1,13 @@
-//class definition
+ //class definition
 class MyClass {
     //1. property 
-        name='';
+        name = '';
     
 
     //2. constructer
-    constructer() {
-        this.name ='morning';
-        
+    constructor() {
+        this.name ="morning";
+        this.myFunction2();        
 
 
     }
@@ -15,10 +15,10 @@ class MyClass {
     //3. method
     myFun1(n) {     //n is formal argument
         console.log(`hello ${n}`);
-        this.myFunction2();
+    
     }
     myFunction2() {
-        console.log(`good ${this.name} `);
+        console.log("good " + this.name);
     }
 }   //class definition end
 //create an external object of the class
