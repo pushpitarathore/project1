@@ -1,42 +1,40 @@
 //class definition
-class A{
+class A {
     //properties
 
-    //constructer
+
+    //constructor
+    constructor() {
+        this.myFun2();
+
+    }
 
     //method
-     myfun1(){
-         console.log("hello pushpita");
-     }
-
-} //class A end
- class B{
-     //properties
-
-    //constructer
-
-    //method
-
- }    //class B end
+    myFun1(){
+        console.log("pushpita");
+    }
 
 
- class C{
-     //properties
 
-    //constructer
+}  //class end
+//class definition
+class B extends A {
+    //properties
+
+    //constructor
+    constructor() {
+        super():
+
+    }
 
     //method
+    myFun2(){
+        console.log("rathore");
+    }
 
+}     //class end
 
- }  //class c end
-
-
- class D{
-     //properties
-
-    //constructer
-
-    //method
-
-
- }   //class d end
+//create an object of the class B
+//let object = new classname():
+let obj = new B();
+B.myFun1();
