@@ -20,10 +20,15 @@ class MyClass {
 //create an exter object of the class
 //let object = new classname();
 let x = {
+    //property area
     fname: "pushpita",
     lname: "rathre",
     mob: "8120901006",
     addr: "neemuch MP"
+    //method area
+    hello : function(){
+        return this.
+    }
 
 };
 let obj = new MyClass(x);
