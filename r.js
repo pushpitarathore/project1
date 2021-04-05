@@ -1,55 +1,26 @@
-console.log("hello world");
+//array introduction
+var x = [
+    "pushpita",  //string
+    21,         //integer
+    5.3,          //float
+    ["namrata", "yuvraj"],   //array
+   /* [
+        {
+            //properties
+            fathorename: "virendra singh",
+            mothername: "nirmala rathore",
+            //methods
+            getfathorename: function () {
+                return this.fathorename;
 
-var a,b;
-a=3;
-b=5;
-console.log(a+b);
-let c=7;
-console.log(a*b*c);
-//function declaration
-function hello(){
-    console.log("hello world");
-    console.log("my name is pushpita");
+            }
+        }
+    ] */     //array of object
+];
+//console.log(x[4][0].getfathorename());
+//console.log(x[3][0]);
+x.forEach(hello);
+function hello(a){
+    console.log(a);
 }
-hello();
 
-function functionNameA(){
-    console.log("hello from a");
-}
-functionNameA();
-function get(){
-    console.log(a+b+c);
-}
-get();
-function functionnameB(){
-    console.log(c-b);
-}
-functionnameB();
-function functionnameC(){
-    console.log(a+c);
-}
-functionnameC();
-function functionnameD() {
-  console.log("pushpita rathore");  
-}
-functionnameD();
-function functionnameE(){
-    console.log("good morning");
-}
-functionnameE();
-function functionnameF(){
-    console.log(c-b);
-}
-functionnameF();
-function functionnameG(){
-    console.log(a+b*c);
-}
-functionnameG();
-function fuctionnameH(){
-    console.log(b*c);
-}
-functionnameG();
-function fuctionnameI(){
-    console.log(c%b);
-}
-fuctionnameI();
