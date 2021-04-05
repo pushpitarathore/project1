@@ -1,6 +1,6 @@
-console.log("hello world");
-const a=6;
-let b =8;
-var c=9;
-console.log(a+b);
-console.log(a+b+c);
+var a =["mamta","sunita","anita","lalita","anita"];
+console.log(a);
+var b = a.indexOf("anitaa",3);
+console.log(b);
+var c = a.lastIndexOf("mamtaa");
+console.log(c);
