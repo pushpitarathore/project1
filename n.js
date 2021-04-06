@@ -26,9 +26,7 @@ let x = {
     mob: "8120901006",
     addr: "neemuch MP"
     //method area
-    hello : function(){
-        return this.
-    }
+
 
 };
 let obj = new MyClass(x);
